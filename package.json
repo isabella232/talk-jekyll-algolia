@@ -1,9 +1,9 @@
 {
-  "name": "slidedeck-html",
+  "name": "talk-jekyll-algolia",
   "version": "1.0.0",
-  "description": "Official Algolia slide deck in HTML",
+  "description": "jekyll-algolia presentation",
   "main": "index.js",
-  "repository": "git@github.com:algolia/slidedeck-html.git",
+  "repository": "git@github.com:algolia/talk-jekyll-algolia.git",
   "author": "Pixelastic <tim@pixelastic.com>",
   "license": "MIT",
   "scripts": {
