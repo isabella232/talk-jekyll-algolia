@@ -1,0 +1,52 @@
+// What is jekyll-algolia?
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Algolia for Jekyll
+    .fla.flrnw
+      .fln.w-50
+        .flcnw.h-100
+          .fla.relative.o-50
+            .absolute.top-3.left-2.w6
+              .fake-browser.shadow-2(title="Markdown")
+                .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4
+                  code.language-markdown
+                    |---
+                    |name: About me
+                    |---
+                    |
+                    |# Hello
+                    |
+                    |Lorem ipsum dolor sit amet, 
+                    |consectetur adipiscing elit, sed do 
+            .absolute.top-4.left-4.w6
+              .fake-browser.shadow-2(title="Templates")
+                .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4
+                  code.language-html
+                    |&lt;html&gt;
+                    |  &lt;head&gt;
+                    |    &lt;title&gt;{% page.name %}&lt;/title&gt;
+                    |  &lt;/head&gt;
+                    |  &lt;body&gt;
+                    |    {% content %}
+                    |  &lt;/body&gt;
+                    |&lt;/html&gt;
+          .fln.mta.h4.flrnw.flc
+            .fln.dejavu.bg-near-black.near-white.dib.f1.ph3.pv2.blue jekyll algolia
+      .fln.w-50.relative.fragment
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.br6
+          code.language-js
+           |{
+           |  "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+           |  "title": "About me",
+           |  "type": "page",
+           |  "url": "/about-me.html",
+           |  "html": "<p>Lorem ipsum […]</p>",
+           |  "content": "Lorem ipsum",
+           |  […]
+           |}
+        .absolute.top-4.right-3
+          .fake-browser.f0.shadow-2(title="Search")
+            img.w6(src="./img/animated-demo.gif")
+        .absolute.bottom-0.right-1
+          img.h4(src="./img/algolia.svg")
+

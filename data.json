@@ -1,7 +1,7 @@
 {
-  "talk_title": "Building a search engine with CSS",
-  "talk_description": "How can a language like CSS be used to build a search engine? Come and see how pseudo-elements, custom fonts or flexbox can be used in ways you never imagined.",
+  "talk_title": "Algolia for Jekyll",
+  "talk_description": "Add fast and relevant search to your Jekyll site",
   "talk_author_name": "Tim Carry",
   "talk_author_twitter": "pixelastic",
-  "talk_url": "talks.pixelastic.com/slides/hacking-css-dotcss-2017/"
+  "talk_url": "talks.pixelastic.com/slides/talk-jekyll-algolia-show-and-tell/"
 }

@@ -1,0 +1,48 @@
+// What is Jekyll?
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Jekyll is a Static Website Generator
+    .fla.flrnw
+      .fln.w-50
+        .flcnw.h-100
+          .fla.relative
+            .absolute.top-3.left-2.w6
+              .fake-browser.shadow-2(title="Markdown")
+                .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4
+                  code.language-markdown
+                    |---
+                    |name: About me
+                    |---
+                    |
+                    |# Hello
+                    |
+                    |Lorem ipsum dolor sit amet, 
+                    |consectetur adipiscing elit, sed do 
+            .absolute.top-4.left-4.w6
+              .fake-browser.shadow-2(title="Templates")
+                .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4
+                  code.language-html
+                    |&lt;html&gt;
+                    |  &lt;head&gt;
+                    |    &lt;title&gt;{% page.name %}&lt;/title&gt;
+                    |  &lt;/head&gt;
+                    |  &lt;body&gt;
+                    |    {% content %}
+                    |  &lt;/body&gt;
+                    |&lt;/html&gt;
+          .fln.mta.h4.flrnw.flc.fragment
+            .fln.dejavu.bg-near-black.near-white.dib.f1.ph3.pv2.green jekyll build
+      .fln.w-50.relative.fragment
+        .absolute.top-3.right-2
+          .fake-browser.f0.shadow-2(title="blog.html")
+            img.h5(src="./img/mmistakes.png")
+        .absolute.top-5.right-4
+          .fake-browser.f0.shadow-2(title="docs.html")
+            img.h5(src="./img/hyde.png")
+        .absolute.bottom-0.right-1
+          .bg-black-80.br6.pa2.flrnw.flc
+            .fln.f0.mr2
+              img.h3(src="./img/netlify.png")
+            .fln.f0
+              img.h3(src="./img/github.png")
+

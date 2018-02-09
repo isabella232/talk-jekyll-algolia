@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+destination="slides/talk-jekyll-algolia-show-and-tell/"
 npm run build &&
 rsync \
   --recursive \
@@ -9,5 +10,6 @@ rsync \
   --prune-empty-dirs \
   --compress \
   ./public/* \
-  pixelastic:/var/www/talks.pixelastic.com/slides/hacking-css-dotcss-2017/
+  pixelastic:/var/www/talks.pixelastic.com/$destination && \
+  echo "http://talks.pixelastic.com/$destination"
 

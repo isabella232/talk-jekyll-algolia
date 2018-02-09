@@ -1,0 +1,87 @@
+// Atomic diff
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Atomic diff
+    .fla.flrnw
+      .fln.w-50.flcnw
+        .fln.b.mb3 Local records
+        .fla.flrw
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 c8e15c3fdafacdc
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 aafda89abc9038f
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 2f98b0fa470d93d
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 1b25bd7efbfdb11
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 b884d5775bdb6ef
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.near-white.b.w-80 39056a18d3f2445
+        .fln.b.mt4.mb3.fragment(data-fragment-index="1") Remote records
+        .fla.flrw.fragment(data-fragment-index="1")
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 c8e15c3fdafacdc
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 aafda89abc9038f
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 4e5994b830df017
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 1b25bd7efbfdb11
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 b884d5775bdb6ef
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.logan.b.w-80 39056a18d3f2445
+
+// Atomic diff
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Atomic diff
+    .fla.flrnw
+      .fln.w-50.flcnw
+        .fln.b.mb3 Local records
+        .fla.flrw
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.near-white.b.w-80 c8e15c3fdafacdc
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.near-white.b.w-80 aafda89abc9038f
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.green.b.w-80 + 2f98b0fa470d93d
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.near-white.b.w-80 1b25bd7efbfdb11
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.near-white.b.w-80 b884d5775bdb6ef
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.near-white.b.w-80 39056a18d3f2445
+        .fln.b.mt4.mb3 Remote records
+        .fla.flrw
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.logan.b.w-80 c8e15c3fdafacdc
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.logan.b.w-80 aafda89abc9038f
+          .fln.w-50.pa2.flc
+            .pa2.bg-near-black.br6.radical-red.b.w-80 - 4e5994b830df017
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.logan.b.w-80 1b25bd7efbfdb11
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.logan.b.w-80 b884d5775bdb6ef
+          .fln.w-50.pa2.flc.o-50
+            .pa2.bg-near-black.br6.logan.b.w-80 39056a18d3f2445
+      .fln.w-50.flc.fragment
+          .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu.w-80.br6
+            .db client.batch([
+            .db   {
+            .db       "action": "
+              .di.green addObject
+              .di "
+            .db       "body": 
+              .dib.pa2.bg-white-10.br6.green.b 2f98b0fa470d93d
+            .db   },
+            .db   {
+            .db       "action": "
+              .di.radical-red deleteObject
+              .di "
+            .db       "body": 
+              .dib.pa2.bg-white-10.br6.radical-red.b 4e5994b830df017
+            .db   }
+            .db ])

@@ -1,0 +1,248 @@
+// Extracting records
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Extracting records
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .db ---
+          .db title: When Solid State Drives are not that solid
+          .db author: Adam
+          .db ---
+          .db 
+          .db It looked just like another page in the middle of 
+          .db the night. One of the servers of our search API 
+          .db stopped processing the indexing jobs for an unknown 
+          .db reason. Since we build systems in Algolia for […]
+          .db 
+          .db UPDATE June 19: On Monday June 22, the engineering 
+          .db team from Samsung is going analyze one of our 
+          .db servers in Singapore and if nothing is found on-site
+          .db the server will travel to Samsung HQ in Korea […]
+          .db 
+          .db […]
+
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b One record per paragraph
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .db ---
+          .db title: When Solid State Drives are not that solid
+          .db author: Adam
+          .db ---
+          .db 
+          .db.bg-yellow.black It looked just like another page in the middle of 
+          .db.bg-yellow.black the night. One of the servers of our search API 
+          .db.bg-yellow.black stopped processing the indexing jobs for an unknown 
+          .db.bg-yellow.black reason. Since we build systems in Algolia for […]
+          .db 
+          .db.bg-green.black UPDATE June 19: On Monday June 22, the engineering 
+          .db.bg-green.black team from Samsung is going analyze one of our 
+          .db.bg-green.black servers in Singapore and if nothing is found on-site
+          .db.bg-green.black the server will travel to Samsung HQ in Korea […]
+          .db 
+          .db […]
+      .fln.w-50
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db.yellow   "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+          .db.yellow   "html": "&lt;p>It looked just like another […]&lt;/p>",
+          .db.yellow   "content": "It looked just like another page […]",
+          .db.o-30.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .db.o-30.algolia-blue   "author": "Adam",
+          .db.o-30.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db.near-white }
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db.green   "objectID": "4e5994b830df0172b79a8c963dde168c",
+          .db.green   "html": "&lt;p>UPDATE June 19: On Monday June […]&lt;/p>",
+          .db.green   "content": "UPDATE June 19: On Monday June […]",
+          .db.o-30.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .db.o-30.algolia-blue   "author": "Adam",
+          .db.o-30.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db }
+
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Shared metadata
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .db.bg-algolia-blue ---
+          .db.bg-algolia-blue title: When Solid State Drives are not that solid
+          .db.bg-algolia-blue author: Adam
+          .db.bg-algolia-blue ---
+          .db 
+          .db It looked just like another page in the middle of 
+          .db the night. One of the servers of our search API 
+          .db stopped processing the indexing jobs for an unknown 
+          .db reason. Since we build systems in Algolia for […]
+          .db 
+          .db UPDATE June 19: On Monday June 22, the engineering 
+          .db team from Samsung is going analyze one of our 
+          .db servers in Singapore and if nothing is found on-site
+          .db the server will travel to Samsung HQ in Korea […]
+          .db 
+          .db […]
+      .fln.w-50
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db   "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+          .db   "html": "&lt;p>It looked just like another […]&lt;/p>",
+          .db   "content": "It looked just like another page […]",
+          .db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .db.algolia-blue   "author": "Adam",
+          .db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db.near-white }
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db   "objectID": "4e5994b830df0172b79a8c963dde168c",
+          .db   "html": "&lt;p>UPDATE June 19: On Monday June […]&lt;/p>",
+          .db   "content": "UPDATE June 19: On Monday June […]",
+          .db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .db.algolia-blue   "author": "Adam",
+          .db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db }
+
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b Url used for 
+      .code distinct
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .db.o-30.bg-algolia-blue.white  ---
+          .db.o-30.bg-algolia-blue.white  title: When Solid State Drives are not that solid
+          .db.o-30.bg-algolia-blue.white  author: Adam
+          .db.o-30.bg-algolia-blue.white  ---
+          .db 
+          .o-30.db.bg-yellow.black It looked just like another page in the middle of 
+          .o-30.db.bg-yellow.black the night. One of the servers of our search API 
+          .o-30.db.bg-yellow.black stopped processing the indexing jobs for an unknown 
+          .o-30.db.bg-yellow.black reason. Since we build systems in Algolia for […]
+          .db 
+          .o-30.db.bg-green.black UPDATE June 19: On Monday June 22, the engineering 
+          .o-30.db.bg-green.black team from Samsung is going analyze one of our 
+          .o-30.db.bg-green.black servers in Singapore and if nothing is found on-site
+          .o-30.db.bg-green.black the server will travel to Samsung HQ in Korea […]
+          .db 
+          .db […]
+      .fln.w-50
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .o-30.db.yellow   "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+          .o-30.db.yellow   "html": "&lt;p>It looked just like another […]&lt;/p>",
+          .o-30.db.yellow   "content": "It looked just like another page […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .db.algolia-blue.b   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db.near-white }
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .o-30.db.green   "objectID": "4e5994b830df0172b79a8c963dde168c",
+          .o-30.db.green   "html": "&lt;p>UPDATE June 19: On Monday June […]&lt;/p>",
+          .o-30.db.green   "content": "UPDATE June 19: On Monday June […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .db.algolia-blue.b   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db }
+
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b 
+      .code objectID
+      .di  as a hash of the record
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .o-30.db.bg-algolia-blue ---
+          .o-30.db.bg-algolia-blue title: When Solid State Drives are not that solid
+          .o-30.db.bg-algolia-blue author: Adam
+          .o-30.db.bg-algolia-blue ---
+          .db 
+          .db.o-30.bg-yellow.black It looked just like another page in the middle of 
+          .db.o-30.bg-yellow.black the night. One of the servers of our search API 
+          .db.o-30.bg-yellow.black stopped processing the indexing jobs for an unknown 
+          .db.o-30.bg-yellow.black reason. Since we build systems in Algolia for […]
+          .db 
+          .o-30.db.bg-green.black UPDATE June 19: On Monday June 22, the engineering 
+          .o-30.db.bg-green.black team from Samsung is going analyze one of our 
+          .o-30.db.bg-green.black servers in Singapore and if nothing is found on-site
+          .o-30.db.bg-green.black the server will travel to Samsung HQ in Korea […]
+          .db 
+          .db […]
+      .fln.w-50
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db.yellow.b   "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+          .o-30.db.yellow   "html": "&lt;p>It looked just like another […]&lt;/p>",
+          .o-30.db.yellow   "content": "It looked just like another page […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .o-30.db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db.near-white }
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db.green.b   "objectID": "4e5994b830df0172b79a8c963dde168c",
+          .o-30.db.green   "html": "&lt;p>UPDATE June 19: On Monday June […]&lt;/p>",
+          .o-30.db.green   "content": "UPDATE June 19: On Monday June […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .o-30.db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db }
+
+section.slide--horizontal
+  .h-100.flcnw.pa3
+    .fln.f1.lh-title.tl.b 
+      .code objectID
+      .di  as a hash of the record
+    .fla.flrnw
+      .fln.w-50.flc
+        .pre.bg-near-black.pv2.ph3.tl.oh.near-white.lh-copy.f4.mr3.dejavu
+          .o-30.db.bg-algolia-blue ---
+          .o-30.db.bg-algolia-blue title: When Solid State Drives are not that solid
+          .o-30.db.bg-algolia-blue author: Adam
+          .o-30.db.bg-algolia-blue ---
+          .db 
+          .db.o-30.bg-yellow.black It looked just like another page in the middle of 
+          .db.o-30.bg-yellow.black the night. One of the servers of our search API 
+          .db.o-30.bg-yellow.black stopped processing the indexing jobs for an unknown 
+          .db.o-30.bg-yellow.black reason. Since we build systems in Algolia for […]
+          .db 
+          .db.bg-orange.black UPDATE July 13: Since the last update of this 
+          .db.bg-orange.black blog-post, we have been in a cooperation with 
+          .db.bg-orange.black Samsung trying to help them find the issue, 
+          .db.bg-orange.black during this investigation we agreed with […]
+          .db 
+          .db […]
+      .fln.w-50
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .o-30.db.yellow   "objectID": "e2dd8dd1eaaf961baa6da4de309628e9",
+          .o-30.db.yellow   "html": "&lt;p>It looked just like another […]&lt;/p>",
+          .o-30.db.yellow   "content": "It looked just like another page […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .o-30.db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db.near-white }
+        .pre.bg-near-black.pv2.ph3.tl.oh.lh-copy.f4.dejavu.dark-gray
+          .db.near-white {
+          .db.orange.b   "objectID": "2f98b0fa470d93d8b884d5775bdb6e0e",
+          .db.orange   "html": "&lt;p>UPDATE July 13: Since the last […]&lt;/p>",
+          .db.orange   "content": "UPDATE July 13: Since the last […]",
+          .o-30.db.algolia-blue   "title": "When Solid State Drives are not that […]",
+          .o-30.db.algolia-blue   "author": "Adam",
+          .o-30.db.algolia-blue   "url": "/when-solid-state-drives-[…]-solid.html",
+          .db   […]
+          .db }

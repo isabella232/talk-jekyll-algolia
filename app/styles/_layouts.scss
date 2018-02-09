@@ -1,6 +1,7 @@
 .aside--horizontal, .aside--vertical {
   z-index: 99;
   opacity: 0;
+  left: -9999rem;
 }
 
 // HORIZONTAL LAYOUT
@@ -12,6 +13,7 @@
 }
 .layout--horizontal .aside--horizontal {
   opacity: 1;
+  left: 0;
   height: $aside-horizontal-height;
 }
 
@@ -24,6 +26,7 @@
 }
 .layout--vertical .aside--vertical {
   opacity: 1;
+  left: 0;
   width: $aside-vertical-width;
 }
 
